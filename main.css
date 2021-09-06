@@ -1,0 +1,92 @@
+*{
+padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 90vh;
+    background-color:cadetblue;
+    text-align: center;
+    color:honeydew;
+    font-family: 'Times New Roman', serif;
+    font-size:20px;
+    margin: 2rem auto 10rem;
+    border-radius: 00.5rem; 
+    padding: 30px;
+}
+label{
+    color: darkblue;
+}
+#bill-amount, #cash-given{
+    font-size: 14px;
+    outline: #fff;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 2px solid;
+    color:blueviolet;
+   
+}
+.description{
+    margin: 1 rem;
+    font-size: 20px;
+    padding: 10px;
+}
+#check{
+    border: none;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: auto;
+  display: block;
+  background-color: black;
+}
+#next{
+  border: none;
+color: #fff;
+padding: 0.7rem 1rem;
+border-radius: 0.5rem;
+font-size: large;
+cursor: pointer;
+outline: #fff;
+margin: auto;
+display: block;
+background-color: black;
+}
+#error-message{
+    color:red;
+    padding: 20px;
+    font-size: 30px;
+    display: block;
+}
+.change-table{
+    width: 50%;
+  text-align: justify;
+  border-collapse: collapse;
+  margin: auto;
+
+}
+.change-table caption {
+    margin: 1rem auto;
+    font-size: x-large;
+    font-weight: 500;
+    color:darkblue;
+  }
+  
+  th,
+  td {
+    border: 2px solid blueviolet;
+    width: 0%;
+    border-collapse: collapse;
+    padding: 0.4rem;
+    color: white;
+  }
+  
+
+ 
