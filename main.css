@@ -87,6 +87,9 @@ background-color: black;
     padding: 0.4rem;
     color: white;
   }
+  #cashGiven{
+    display: none;
+  }
   
 
  
