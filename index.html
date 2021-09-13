@@ -14,13 +14,13 @@
             <p class="description">Enter the bill amount and cash given by the customer and know minimum number of notes to return.</p>
             <div>
                 <label for="bill-amount">Bill Amount:</label>
-                <input id="bill-amount"type="number" />
+                <input id="bill-amount"type="number" min="0" />
                 <button id="next">Next</button>
             </div>
 
             <div id="cashGiven">
                 <label for="cash-given">Cash Given:</label>
-                <input id="cash-given"type="text">
+                <input id="cash-given" type="number" min="0">
                 <button id="check">Check</button>
             </div>
             
