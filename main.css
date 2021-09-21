@@ -90,6 +90,8 @@ background-color: black;
   #cashGiven{
     display: none;
   }
-  
+  .change-table{
+    display: none;
+  }
 
  
